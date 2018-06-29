@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">    
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>John Doe - UX Designer & Front End Developer</title>
@@ -41,8 +42,8 @@
     <div class="container">
       <div class="row">
         <div class="intro-text">
-          <h1>Hello, I'm <span class="name">John Doe</span></h1>
-          <p>UX Designer & Front End Developer</p>
+          <h1>Hello, I'm <span class="name">Young Ko</span></h1>
+          <p>Computer Engineering Undergraduate at University of Waterloo </p>
           <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
       </div>
     </div>
@@ -54,7 +55,7 @@
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">John Doe</a> </div>
+        <a class="navbar-brand page-scroll" href="#page-top">Young Ko</a> </div>
       
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -81,10 +82,11 @@
     <div class="row">
       <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
       <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
-          <p class="text-center"><a class="btn btn-primary" href="#"><i class="fa fa-download"></i> Download Resume</a></p>
+        <div class="about-text" style = 'text-align:center;'>
+          <p>Hello, I am YoungMin Ko.</p>
+		  <p>I am currently studying Computer Engineering at University of Waterloo.</p>
+          
+          <p class="text-center"><a class="btn btn-primary" target="_blank" href="https://www.linkedin.com/in/youngmko/"><i class="fa fa-external-link-square"></i> Go to Linkedin </a></p>
         </div>
       </div>
     </div>
@@ -99,22 +101,22 @@
     </div>
     <div class="row">
       <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="95"> <span class="percent">95</span> </span>
-        <h4>HTML5</h4>
+        <h4>Java</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
-        <h4>CSS3</h4>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="90"> <span class="percent">90</span> </span>
+        <h4>C#.NET</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
         <h4>jQuery</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>WordPress</h4>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
+        <h4>SpringMVC</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70</span> </span>
-        <h4>Photoshop</h4>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
+        <h4>HTML</h4>
       </div>
-      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="65"> <span class="percent">65</span> </span>
-        <h4>Illustrator</h4>
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="85"> <span class="percent">85</span> </span>
+        <h4>SQL</h4>
       </div>
     </div>
   </div>
@@ -131,9 +133,9 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
+<!--             <li><a href="#" data-filter=".web">Web Design</a></li>
+ -->            <li><a href="#" data-filter=".app">Proejects</a></li>
+            <li><a href="#" data-filter=".hobbies">Hobbies</a></li>
           </ol>
         </li>
       </ul>
@@ -141,6 +143,15 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
+	  <div class="col-sm-6 col-md-3 col-lg-3 hobbies">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/pcfinal.jpg" title="Project description" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>Building Customized PC</h4>
+                <small>Hobbies</small> </div>
+              <img src="img/portfolio/pcfinal.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
             <div class="hover-bg"> <a href="img/portfolio/01-large.jpg" title="Project description" rel="prettyPhoto">
@@ -186,27 +197,18 @@
               <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+        <div class="col-sm-6 col-md-3 col-lg-3 hobbies">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Collecting Mechanical Keyboards" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small> </div>
-              <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Project description" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small> </div>
-              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+                <h4>Collecting Keyboards</h4>
+                <small>Hobbies</small> </div>
+              <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Keyboards Collections"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Customized PC Building" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Project Title</h4>
                 <small>Web Design</small> </div>
@@ -218,7 +220,7 @@
   </div>
 </div>
 <!-- Achievements Section -->
-<div id="achievements" class="text-center">
+<!-- <div id="achievements" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Some Stats</h2>
@@ -247,9 +249,9 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Resume Section -->
-<div id="resume" class="text-center">
+<!-- <div id="resume" class="text-center">
   <div class="container">
     <div class="section-title center">
       <h2>Experience</h2>
@@ -317,11 +319,11 @@
     </div>
     <div class="row">
       <div class="col-lg-12">
-        <ul class="timeline">
+        <ul class="timeline"> -->
           
           <!-- Education Section-->
           
-          <li>
+          <!-- <li>
             <div class="timeline-image">
               <h4>2010 <br>
                 - <br>
@@ -373,7 +375,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">

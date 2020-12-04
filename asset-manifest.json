@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.de46cd04.chunk.css",
+    "main.js": "/static/js/main.99940f29.chunk.js",
+    "main.js.map": "/static/js/main.99940f29.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.575fa6f0.chunk.js": "/static/js/2.575fa6f0.chunk.js",
+    "static/js/2.575fa6f0.chunk.js.map": "/static/js/2.575fa6f0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d35733a1153d7613737479f753ad7a4a.js": "/precache-manifest.d35733a1153d7613737479f753ad7a4a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.de46cd04.chunk.css.map": "/static/css/main.de46cd04.chunk.css.map",
+    "static/js/2.575fa6f0.chunk.js.LICENSE.txt": "/static/js/2.575fa6f0.chunk.js.LICENSE.txt",
+    "static/media/agile.png": "/static/media/agile.c541e0bc.png",
+    "static/media/api.png": "/static/media/api.2a106907.png",
+    "static/media/call.png": "/static/media/call.80bc8d48.png",
+    "static/media/extractTool.png": "/static/media/extractTool.7c0fc786.png",
+    "static/media/facebook.svg": "/static/media/facebook.a6a36fca.svg",
+    "static/media/front-end.png": "/static/media/front-end.2434c415.png",
+    "static/media/github.svg": "/static/media/github.4427fedd.svg",
+    "static/media/instagram.svg": "/static/media/instagram.304fb315.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.2c20928d.svg",
+    "static/media/microblog.png": "/static/media/microblog.7fd95fd8.png",
+    "static/media/migrationTool.png": "/static/media/migrationTool.787ac833.png",
+    "static/media/myprofile.jpg": "/static/media/myprofile.3de924a2.jpg",
+    "static/media/python.svg": "/static/media/python.e2905a88.svg",
+    "static/media/react.svg": "/static/media/react.9e188349.svg",
+    "static/media/resume.pdf": "/static/media/resume.7507348a.pdf",
+    "static/media/sudoku.jpg": "/static/media/sudoku.96bb4497.jpg",
+    "static/media/todoList.png": "/static/media/todoList.79d7bfdf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.575fa6f0.chunk.js",
+    "static/css/main.de46cd04.chunk.css",
+    "static/js/main.99940f29.chunk.js"
+  ]
+}

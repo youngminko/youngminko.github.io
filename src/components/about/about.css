@@ -1,0 +1,23 @@
+/* about */
+
+.about {
+    position: relative
+}
+
+.about__intro {
+    font-size: 1rem;
+    padding: 3px 28px;
+    margin: 10px 0;
+    color:white;
+}
+
+.about__container {
+    padding: 2px 40px;
+}
+
+.about__heading {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-left: 10px;
+}
